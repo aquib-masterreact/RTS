@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(233, 210, 180);
+    width: auto;
+    
+}
+.form{
+    width: 100%;
+    margin: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.todoInput{
+    height: 2rem;
+    width: 25rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: none;
+    
+}
+.submitTodo{
+    margin: 1rem;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    background-color: goldenrod;
+}
+
+/*Navbar*/
+
+nav{
+    width: 100%;
+    height: 4rem;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.All{
+    text-decoration: none;
+    font-size: x-large;
+    
+}
+.Active{
+    text-decoration: none;
+    font-size: x-large;
+}
+.Completed{
+    text-decoration: none;
+    font-size: x-large;
+}
+.heading{
+    text-align: center;
+}
+
+/*todoList*/
+body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+ul{
+    
+    list-style-type:none;
+    
+    padding: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+   
+}
+li{
+    width: 50%;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(70, 122, 122);
+    margin-bottom: 2rem;
+}
+.delbtn{
+    background-color: rgb(240, 54, 54);
+    
+}
